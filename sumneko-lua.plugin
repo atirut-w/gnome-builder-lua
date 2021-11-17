@@ -1,0 +1,18 @@
+[Plugin]
+Name=Lua Language Server
+Description=Make Lua development easier using Sumneko's Lua LS
+Author=Atirut Wattanamongkol
+Loader=python3
+Module=sumneko-lua
+
+X-Builder-ABI=41.0
+X-Diagnostic-Provider-Languages=lua
+X-Completion-Provider-Languages=lua
+X-Symbol-Resolver-Languages=lua
+X-Diagnostic-Provider-Languages=lua
+X-Highlighter-Languages=lua
+X-Hover-Provider-Languages=lua
+X-Rename-Provider-Languages=lua
+X-Formatter-Languages=lua
+
+
